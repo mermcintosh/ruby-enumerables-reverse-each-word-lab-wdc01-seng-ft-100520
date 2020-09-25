@@ -23,7 +23,7 @@
     reversed_string.join(' ')
     p sentence1
   end
-reverse_each_word("I love Chris so much!")
+  reverse_each_word("I love Chris so much!")
 
 def reverse_each_word(string)
   returnedArray = []
