@@ -18,7 +18,7 @@
   def reverse_each_word(sentence1)
     sentence1 = sentence1.split
     reversed_string = []
-    sentence1.each {|word| word.reverse}
+    sentence1.collect do {|word| word.reverse}
     reversed_string << sentence1
     reversed_string.join(' ')
     p reversed_string
