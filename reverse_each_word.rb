@@ -28,7 +28,7 @@
 def reverse_each_word(string)
   returnedArray = []
   newArray = string.split("")
-  
+  newArray = newArray.reverse
   newArray.collect do |word|
     returnedArray << word.reverse
   end
