@@ -7,7 +7,7 @@
  sentence1 = sentence1.split
  reversed_string = []
  
-  sentence1.each {|char| p char.reverse}
+  sentence1.each {|char| char.reverse}
  
  return reversed_string.join('')
 end
