@@ -7,7 +7,8 @@
  sentence1 = sentence1.split
  reversed_string = []
   individual_word_index = 0
-  while individual_word_index < sentence1.each do 
+  while individual_word_index < sentence1.each do
+    
    {|char| reversed_string << char.reverse}
   end
   individual_word_index += 1
