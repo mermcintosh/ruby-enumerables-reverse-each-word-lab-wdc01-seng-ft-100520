@@ -9,7 +9,7 @@
  
   sentence1.each {|char| char.reverse}
  
- return reversed_string.join('')
+ p reversed_string.join('')
 end
 p reverse_each_word("I love Chris so much!")
 
