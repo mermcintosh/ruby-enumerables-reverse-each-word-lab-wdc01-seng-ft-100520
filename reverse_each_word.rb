@@ -28,8 +28,9 @@
 def reverse_each_word(string)
   returnedArray = []
   newArray = string.split("")
-  newArray = newArray.reverse
+  
   newArray.collect do |word|
+    newArray = newArray.reverse
     returnedArray << word.reverse
   end
   newString = returnedArray.join(" ").to_s
