@@ -4,15 +4,14 @@
   # end
   
  def reverse_each_word(sentence1)
- sentence1 = sentence1.split
- reversed_string = []
+  sentence1 = sentence1.split
+  reversed_string = []
   individual_word_index = 0
-  while individual_word_index < sentence1.count do
-    reversed_string << sentence1[0].reverse
-    # sentence1.reverse  reversed_string
-  individual_word_index += 1
-  end
-  reversed_string.join('')
+    while individual_word_index < sentence1.count do
+      reversed_string << sentence1[0].reverse
+      individual_word_index += 1
+    end
+      reversed_string.join('')
 end
 p reverse_each_word("I love Chris so much!")
 
