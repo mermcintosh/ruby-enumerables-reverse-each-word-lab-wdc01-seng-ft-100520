@@ -18,10 +18,8 @@
   def reverse_each_word(sentence1)
     sentence1 = sentence1.split
     reversed_string = []
-    individual_word_index = 0
-    sentence1.each {
-    reversed_string << sentence1.reverse
-    sentence1.each[individual_word_index].reverse_each_word
+    sentence1.each {|word| word.reverse}
+    reversed_string << sentence1
     reversed_string.join(' ')
   end
  p reverse_each_word("I love Chris so much!")
