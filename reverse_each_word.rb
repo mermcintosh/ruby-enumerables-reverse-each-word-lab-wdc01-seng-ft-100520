@@ -15,19 +15,27 @@
 #   end
 #   reverse_each_word("I love Chris so much!")
   
-  def reverse_each_word(sentence1)
-    sentence1 = sentence1.split
-    reversed_string = []
-    sentence1.collect {|word| word.reverse}
-    reversed_string << sentence1
-    reversed_string.join(' ')
-    p sentence1
+#   def reverse_each_word(sentence1)
+#     sentence1 = sentence1.split
+#     reversed_string = []
+#     sentence1.collect {|word| word.reverse}
+#     reversed_string << sentence1
+#     reversed_string.join(' ')
+#     p sentence1
+#   end
+# reverse_each_word("I love Chris so much!")
+
+def reverse_each_word(string)
+  returnedArray = []
+  newArray = string.split(" ")
+  newArray = newArray.reverse
+  newArray.collect do |word|
+    returnedArray << word.reverse
   end
- reverse_each_word("I love Chris so much!")
+  newString = returnedArray.join(" ").to_s
+  puts "newString = #{newString}"
+end
 
-
-a = [ "a", "b", "c" ]
-a.each {|x| print x, " -- " }
 
 "#{ } "
 
