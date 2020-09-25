@@ -6,7 +6,9 @@
  def reverse_each_word(sentence1)
  sentence1 = sentence1.split
  reversed_string = []
- p sentence1
+  individual_word_index = 0
+  while individual_word_index < sentence1
+  
   sentence1.each {|char| reversed_string << char.reverse}
 
  reversed_string.join('')
