@@ -19,6 +19,8 @@
     sentence1 = sentence1.split
     reversed_string = []
     individual_word_index = 0
+    while individual_word_index < sentence1.each
+    reversed_string << sentence1.reverse
     sentence1.each[individual_word_index].reverse_each_word
     reversed_string.join(' ')
   end
