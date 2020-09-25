@@ -28,6 +28,11 @@ def reverse_each_word(string)
 end
 reverse_each_word("How are you?")
 
+def reverse_each_word(string)
+  sentence.split.map {|word| word.reverse}.join(" ")
+end
+reverse_each_word("How are you?")
+
 
 
   
