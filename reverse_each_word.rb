@@ -19,7 +19,7 @@
     sentence1 = sentence1.split
     reversed_string = []
     sentence1.each {|word| word.reverse}
-    # reversed_string << sentence1
+    reversed_string << sentence1
     reversed_string.join(' ')
   end
  p reverse_each_word("I love Chris so much!")
