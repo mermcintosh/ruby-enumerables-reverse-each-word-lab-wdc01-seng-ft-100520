@@ -8,7 +8,7 @@
  reversed_string = []
   individual_word_index = 0
   while individual_word_index < sentence1.count do
-    reversed string << 
+    reversed_string << sentence1[0]
     p sentence1
     # sentence1.reverse  reversed_string
   # {|char| reversed_string << char.reverse}
