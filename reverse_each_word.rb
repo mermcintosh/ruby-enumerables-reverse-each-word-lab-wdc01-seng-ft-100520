@@ -15,7 +15,7 @@
   end
   reversed_string.join('')
 end
-p reverse_each_word("I love Chris so much!")
+reverse_each_word("I love Chris so much!")
 
 
 # sentence1.each do |char|
