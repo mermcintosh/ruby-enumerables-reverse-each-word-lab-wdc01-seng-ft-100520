@@ -35,10 +35,8 @@ def reverse_each_word(string)
   newString = returnedArray.join(" ").to_s
   puts newString = "#{newString}"
 end
-reverse_each_word(string)
+reverse_each_word("How are you?")
 
-
-"#{ } "
 
 
   
