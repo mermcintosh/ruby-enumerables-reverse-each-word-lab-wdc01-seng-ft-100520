@@ -7,9 +7,8 @@
  sentence1 = sentence1.split
  reversed_string = []
  
-  sentence1.each {|char| reversed_string=char.reverse}
-  
- 
+  sentence1.each {|char| reversed_string << char.reverse}
+
  p reversed_string.join('')
 end
 p reverse_each_word("I love Chris so much!")
