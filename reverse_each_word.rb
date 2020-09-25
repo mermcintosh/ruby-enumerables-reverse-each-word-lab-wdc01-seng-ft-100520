@@ -8,10 +8,11 @@
  reversed_string = []
   individual_word_index = 0
   while individual_word_index < sentence1.each do
-    sentence1.reverse = reversed_string
+    p sentence1
+    # sentence1.reverse  reversed_string
   # {|char| reversed_string << char.reverse}
-  end
   individual_word_index += 1
+  end
   reversed_string.join('')
 end
 p reverse_each_word("I love Chris so much!")
