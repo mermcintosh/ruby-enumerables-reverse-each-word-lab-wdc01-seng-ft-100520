@@ -16,22 +16,22 @@
 #   reverse_each_word("I love Chris so much!")
 
 
-def reverse_each_word(string)
-  returnedArray = []
-  newArray = string.split("")
-  newArray = newArray.reverse
-  newArray.collect do |word|
-    returnedArray << word.reverse
-  end
-  newString = returnedArray.join(" ").to_s
-  puts newString = "#{newString}"
-end
-reverse_each_word("How are you?")
+# def reverse_each_word(string)
+#   returnedArray = []
+#   newArray = string.split("")
+#   newArray = newArray.reverse
+#   newArray.collect do |word|
+#     returnedArray << word.reverse
+#   end
+#   newString = returnedArray.join(" ").to_s
+#   puts newString = "#{newString}"
+# end
+# reverse_each_word("How are you?")
 
 def reverse_each_word(string)
-  sentence.split.map {|word| word.reverse}.join(" ")
+  string.split.map {|word| word.reverse}.join(" ")
 end
-reverse_each_word("How are you?")
+p reverse_each_word("How are you?")
 
 
 
