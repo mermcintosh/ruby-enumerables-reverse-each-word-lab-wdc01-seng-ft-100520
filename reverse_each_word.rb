@@ -29,7 +29,7 @@ def reverse_each_word(string)
   returnedArray = []
   newArray = string.split("")
   newArray = newArray.reverse
-  newArray.collect do |word|
+  newArray.collect do {|word| word.reverse}
     returnedArray << word.reverse
   end
   newString = returnedArray.join(" ").to_s
