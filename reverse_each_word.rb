@@ -21,8 +21,9 @@
     sentence1.each {|word| word.reverse}
     reversed_string << sentence1
     reversed_string.join(' ')
+    p sentence1
   end
- p reverse_each_word("I love Chris so much!")
+ reverse_each_word("I love Chris so much!")
 
 
 a = [ "a", "b", "c" ]
