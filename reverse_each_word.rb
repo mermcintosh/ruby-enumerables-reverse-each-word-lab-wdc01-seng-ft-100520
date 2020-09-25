@@ -6,10 +6,10 @@
  def reverse_each_word(sentence1)
  sentence1 = sentence1.split
  reversed_string = []
- 
+ p sentence1
   sentence1.each {|char| reversed_string << char.reverse}
 
- p reversed_string.join('')
+ reversed_string.join('')
 end
 p reverse_each_word("I love Chris so much!")
 
