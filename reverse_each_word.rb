@@ -14,6 +14,10 @@ def reverse_each_word(sentence1)
         reversed_string.join(' ')
   end
   reverse_each_word("I love Chris so much!")
+  
+  def reverse_each_word(sentence1)
+  end
+  reverse_each_word("I love Chris so much!")
 
 
 a = [ "a", "b", "c" ]
