@@ -16,8 +16,8 @@ def reverse_each_word(sentence1)
   reverse_each_word("I love Chris so much!")
 
 
-# sentence1.each do |char|
-#   reversed_string.unshift(char)
+a = [ "a", "b", "c" ]
+a.each {|x| print x, " -- " }
 
 "#{ } "
 
